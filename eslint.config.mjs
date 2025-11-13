@@ -22,6 +22,7 @@ export default tseslint.config(
         projectService: true,
         // test: update eslint configuration for parser options and ensure proper formatting
         tsconfigRootDir: import.meta.dirname,
+        //tsconfigRootDir: new URL('.', import.meta.url).pathname,
       },
     },
   },
@@ -29,7 +30,7 @@ export default tseslint.config(
     rules: {
       '@typescript-eslint/no-explicit-any': 'off',
       '@typescript-eslint/no-floating-promises': 'warn',
-      '@typescript-eslint/no-unsafe-argument': 'warn'
+      '@typescript-eslint/no-unsafe-argument': 'warn',
     },
   },
 );
