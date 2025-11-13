@@ -20,6 +20,7 @@ export default tseslint.config(
       sourceType: 'commonjs',
       parserOptions: {
         projectService: true,
+        // test: update eslint configuration for parser options and ensure proper formatting
         tsconfigRootDir: import.meta.dirname,
       },
     },
