@@ -1,0 +1,7 @@
+{
+  "search.exclude": {
+    "**/dist": true,
+    // "**/**.js": true,
+    // "**/**.js.map": true
+  }
+}
